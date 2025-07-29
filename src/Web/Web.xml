@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Web</name>
+    </assembly>
+    <members>
+        <member name="M:Web.Controllers.BombasController.GetAllBombas">
+            <summary>
+            Obtiene todas las bombas
+            </summary>
+        </member>
+        <member name="M:Web.Controllers.BombasController.GetBombaById(System.Int32)">
+            <summary>
+            Obtiene una bomba por ID
+            </summary>
+        </member>
+        <member name="M:Web.Controllers.BombasController.CreateBomba(Application.Models.CreateBombaDto)">
+            <summary>
+            Crea una nueva bomba
+            </summary>
+        </member>
+        <member name="M:Web.Controllers.BombasController.UpdateBombaEstado(System.Int32,Application.Models.UpdateBombaEstadoDto)">
+            <summary>
+            Actualiza el estado completo de una bomba
+            </summary>
+        </member>
+        <member name="M:Web.Controllers.BombasController.EncenderBomba(System.Int32)">
+            <summary>
+            Enciende una bomba específica
+            </summary>
+        </member>
+        <member name="M:Web.Controllers.BombasController.ApagarBomba(System.Int32)">
+            <summary>
+            Apaga una bomba específica
+            </summary>
+        </member>
+        <member name="M:Web.Controllers.BombasController.DeleteBomba(System.Int32)">
+            <summary>
+            Elimina una bomba
+            </summary>
+        </member>
+        <member name="M:Web.Controllers.BombasController.GetEstadoResumen">
+            <summary>
+            Obtiene un resumen del estado de todas las bombas
+            </summary>
+        </member>
+        <member name="M:Web.Controllers.BombasController.GetBombasEncendidas">
+            <summary>
+            Obtiene solo las bombas que están encendidas
+            </summary>
+        </member>
+        <member name="M:Web.Controllers.BombasController.GetBombasApagadas">
+            <summary>
+            Obtiene solo las bombas que están apagadas
+            </summary>
+        </member>
+        <member name="M:Web.Controllers.BombasController.EncenderTodasLasBombas">
+            <summary>
+            Enciende todas las bombas
+            </summary>
+        </member>
+        <member name="M:Web.Controllers.BombasController.ApagarTodasLasBombas">
+            <summary>
+            Apaga todas las bombas
+            </summary>
+        </member>
+    </members>
+</doc>

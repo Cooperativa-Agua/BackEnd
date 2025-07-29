@@ -1,9 +1,8 @@
 C:\Users\Juan Martin\Desktop\Coop\BackEnd\src\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Users\Juan Martin\Desktop\Coop\BackEnd\src\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
 C:\Users\Juan Martin\Desktop\Coop\BackEnd\src\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
 C:\Users\Juan Martin\Desktop\Coop\BackEnd\src\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
-C:\Users\Juan Martin\Desktop\Coop\BackEnd\src\Infrastructure\bin\Debug\net8.0\Application.dll
 C:\Users\Juan Martin\Desktop\Coop\BackEnd\src\Infrastructure\bin\Debug\net8.0\Domain.dll
-C:\Users\Juan Martin\Desktop\Coop\BackEnd\src\Infrastructure\bin\Debug\net8.0\Application.pdb
 C:\Users\Juan Martin\Desktop\Coop\BackEnd\src\Infrastructure\bin\Debug\net8.0\Domain.pdb
 C:\Users\Juan Martin\Desktop\Coop\BackEnd\src\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
 C:\Users\Juan Martin\Desktop\Coop\BackEnd\src\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
@@ -15,4 +14,7 @@ C:\Users\Juan Martin\Desktop\Coop\BackEnd\src\Infrastructure\obj\Debug\net8.0\In
 C:\Users\Juan Martin\Desktop\Coop\BackEnd\src\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
 C:\Users\Juan Martin\Desktop\Coop\BackEnd\src\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
 C:\Users\Juan Martin\Desktop\Coop\BackEnd\src\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Users\Juan Martin\Desktop\Coop\BackEnd\src\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
 C:\Users\Juan Martin\Desktop\Coop\BackEnd\src\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\Juan Martin\Desktop\Coop\BackEnd\src\Infrastructure\bin\Debug\net8.0\Application.dll
+C:\Users\Juan Martin\Desktop\Coop\BackEnd\src\Infrastructure\bin\Debug\net8.0\Application.pdb
