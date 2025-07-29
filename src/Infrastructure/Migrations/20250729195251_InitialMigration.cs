@@ -40,14 +40,33 @@ namespace Infrastructure.Migrations
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
 
+            migrationBuilder.CreateTable(
+                name: "Users",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    Name = table.Column<string>(type: "longtext", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    Email = table.Column<string>(type: "longtext", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    Password = table.Column<string>(type: "longtext", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4")
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Users", x => x.Id);
+                })
+                .Annotation("MySql:CharSet", "utf8mb4");
+
             migrationBuilder.InsertData(
                 table: "Bombas",
                 columns: new[] { "Id", "Descripcion", "EstaEncendida", "FechaCreacion", "FlujometroActivo", "Nombre", "RelayActivo", "SalvaMotorActivo", "UltimaActualizacion" },
                 values: new object[,]
                 {
-                    { 1, "Bomba principal del sector A", false, new DateTime(2025, 7, 24, 21, 5, 58, 208, DateTimeKind.Utc).AddTicks(3564), false, "Bomba 1", false, false, new DateTime(2025, 7, 24, 21, 5, 58, 208, DateTimeKind.Utc).AddTicks(3564) },
-                    { 2, "Bomba secundaria del sector A", false, new DateTime(2025, 7, 24, 21, 5, 58, 208, DateTimeKind.Utc).AddTicks(3567), false, "Bomba 2", false, false, new DateTime(2025, 7, 24, 21, 5, 58, 208, DateTimeKind.Utc).AddTicks(3567) },
-                    { 3, "Bomba de respaldo del sector B", false, new DateTime(2025, 7, 24, 21, 5, 58, 208, DateTimeKind.Utc).AddTicks(3569), false, "Bomba 3", false, false, new DateTime(2025, 7, 24, 21, 5, 58, 208, DateTimeKind.Utc).AddTicks(3569) }
+                    { 1, "Bomba principal del sector A", false, new DateTime(2025, 7, 29, 19, 52, 51, 48, DateTimeKind.Utc).AddTicks(4684), false, "Bomba 1", false, false, new DateTime(2025, 7, 29, 19, 52, 51, 48, DateTimeKind.Utc).AddTicks(4685) },
+                    { 2, "Bomba secundaria del sector A", false, new DateTime(2025, 7, 29, 19, 52, 51, 48, DateTimeKind.Utc).AddTicks(4687), false, "Bomba 2", false, false, new DateTime(2025, 7, 29, 19, 52, 51, 48, DateTimeKind.Utc).AddTicks(4687) },
+                    { 3, "Bomba de respaldo del sector B", false, new DateTime(2025, 7, 29, 19, 52, 51, 48, DateTimeKind.Utc).AddTicks(4689), false, "Bomba 3", false, false, new DateTime(2025, 7, 29, 19, 52, 51, 48, DateTimeKind.Utc).AddTicks(4689) }
                 });
         }
 
@@ -56,6 +75,9 @@ namespace Infrastructure.Migrations
         {
             migrationBuilder.DropTable(
                 name: "Bombas");
+
+            migrationBuilder.DropTable(
+                name: "Users");
         }
     }
 }

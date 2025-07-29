@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Infrastructure.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250724210558_InitialMigration")]
+    [Migration("20250729195251_InitialMigration")]
     partial class InitialMigration
     {
         /// <inheritdoc />
@@ -71,37 +71,62 @@ namespace Infrastructure.Migrations
                             Id = 1,
                             Descripcion = "Bomba principal del sector A",
                             EstaEncendida = false,
-                            FechaCreacion = new DateTime(2025, 7, 24, 21, 5, 58, 208, DateTimeKind.Utc).AddTicks(3564),
+                            FechaCreacion = new DateTime(2025, 7, 29, 19, 52, 51, 48, DateTimeKind.Utc).AddTicks(4684),
                             FlujometroActivo = false,
                             Nombre = "Bomba 1",
                             RelayActivo = false,
                             SalvaMotorActivo = false,
-                            UltimaActualizacion = new DateTime(2025, 7, 24, 21, 5, 58, 208, DateTimeKind.Utc).AddTicks(3564)
+                            UltimaActualizacion = new DateTime(2025, 7, 29, 19, 52, 51, 48, DateTimeKind.Utc).AddTicks(4685)
                         },
                         new
                         {
                             Id = 2,
                             Descripcion = "Bomba secundaria del sector A",
                             EstaEncendida = false,
-                            FechaCreacion = new DateTime(2025, 7, 24, 21, 5, 58, 208, DateTimeKind.Utc).AddTicks(3567),
+                            FechaCreacion = new DateTime(2025, 7, 29, 19, 52, 51, 48, DateTimeKind.Utc).AddTicks(4687),
                             FlujometroActivo = false,
                             Nombre = "Bomba 2",
                             RelayActivo = false,
                             SalvaMotorActivo = false,
-                            UltimaActualizacion = new DateTime(2025, 7, 24, 21, 5, 58, 208, DateTimeKind.Utc).AddTicks(3567)
+                            UltimaActualizacion = new DateTime(2025, 7, 29, 19, 52, 51, 48, DateTimeKind.Utc).AddTicks(4687)
                         },
                         new
                         {
                             Id = 3,
                             Descripcion = "Bomba de respaldo del sector B",
                             EstaEncendida = false,
-                            FechaCreacion = new DateTime(2025, 7, 24, 21, 5, 58, 208, DateTimeKind.Utc).AddTicks(3569),
+                            FechaCreacion = new DateTime(2025, 7, 29, 19, 52, 51, 48, DateTimeKind.Utc).AddTicks(4689),
                             FlujometroActivo = false,
                             Nombre = "Bomba 3",
                             RelayActivo = false,
                             SalvaMotorActivo = false,
-                            UltimaActualizacion = new DateTime(2025, 7, 24, 21, 5, 58, 208, DateTimeKind.Utc).AddTicks(3569)
+                            UltimaActualizacion = new DateTime(2025, 7, 29, 19, 52, 51, 48, DateTimeKind.Utc).AddTicks(4689)
                         });
+                });
+
+            modelBuilder.Entity("Domain.Entities.User", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Users");
                 });
 #pragma warning restore 612, 618
         }
