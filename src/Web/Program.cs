@@ -99,9 +99,11 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontendDev", policy =>
     {
-        policy.WithOrigins("https://localhost:5173")
-              .AllowAnyHeader()
-              .AllowAnyMethod();
+        policy
+          .WithOrigins("http://localhost:5173", "https://localhost:5173")
+          .AllowAnyHeader()
+          .AllowAnyMethod();
+        // .AllowCredentials(); // solo si usas cookies
     });
 });
 
