@@ -69,6 +69,7 @@ builder.Services.AddAuthentication("Bearer")
 #region Repositories
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IBombaRepository, BombaRepository>();
+builder.Services.AddScoped<ITanqueRepository, TanqueRepository>();
 #endregion
 
 
@@ -77,6 +78,8 @@ builder.Services.AddScoped<IBombaRepository, BombaRepository>();
 
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IBombaService, BombaService>();
+builder.Services.AddScoped<ITanqueService, TanqueService>();
+builder.Services.AddScoped<IBombaRedundanciaService, BombaRedundanciaService>();
 builder.Services.AddScoped<ICustomAuthenticationService, AuthenticationService>();
 
 // Configuración de las opciones de autenticación
@@ -130,5 +133,26 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+
+using (var scope = app.Services.CreateScope())
+{
+    var redundanciaService = scope.ServiceProvider.GetRequiredService<IBombaRedundanciaService>();
+    var logger = scope.ServiceProvider.GetRequiredService<ILogger<Program>>();
+
+    try
+    {
+        var resultado = await redundanciaService.VerificarYMantenerRedundanciaAsync();
+        logger.LogInformation("Sistema de redundancia inicializado: {Descripcion}", resultado.Descripcion);
+
+        if (resultado.EstadoCritico)
+        {
+            logger.LogCritical("ATENCIÓN: Sistema iniciado en estado crítico - {Descripcion}", resultado.Descripcion);
+        }
+    }
+    catch (Exception ex)
+    {
+        logger.LogError(ex, "Error al inicializar el sistema de redundancia");
+    }
+}
 
 app.Run();
