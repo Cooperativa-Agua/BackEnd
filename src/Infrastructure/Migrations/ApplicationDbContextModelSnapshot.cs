@@ -35,8 +35,14 @@ namespace Infrastructure.Migrations
                         .HasMaxLength(500)
                         .HasColumnType("varchar(500)");
 
+                    b.Property<bool>("EsBombaReserva")
+                        .HasColumnType("tinyint(1)");
+
                     b.Property<bool>("EstaEncendida")
                         .HasColumnType("tinyint(1)");
+
+                    b.Property<int>("Estado")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("FechaCreacion")
                         .HasColumnType("datetime(6)");
@@ -44,10 +50,16 @@ namespace Infrastructure.Migrations
                     b.Property<bool>("FlujometroActivo")
                         .HasColumnType("tinyint(1)");
 
+                    b.Property<int>("HorasOperacion")
+                        .HasColumnType("int");
+
                     b.Property<string>("Nombre")
                         .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("varchar(100)");
+
+                    b.Property<int>("Prioridad")
+                        .HasColumnType("int");
 
                     b.Property<bool>("RelayActivo")
                         .HasColumnType("tinyint(1)");
@@ -55,7 +67,16 @@ namespace Infrastructure.Migrations
                     b.Property<bool>("SalvaMotorActivo")
                         .HasColumnType("tinyint(1)");
 
+                    b.Property<int>("TipoFalla")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("UltimaActualizacion")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<DateTime?>("UltimaFalla")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<DateTime?>("UltimoMantenimiento")
                         .HasColumnType("datetime(6)");
 
                     b.HasKey("Id");
@@ -67,37 +88,125 @@ namespace Infrastructure.Migrations
                         {
                             Id = 1,
                             Descripcion = "Bomba principal del sector A",
+                            EsBombaReserva = false,
                             EstaEncendida = false,
-                            FechaCreacion = new DateTime(2025, 7, 29, 19, 52, 51, 48, DateTimeKind.Utc).AddTicks(4684),
+                            Estado = 0,
+                            FechaCreacion = new DateTime(2025, 8, 12, 19, 13, 2, 327, DateTimeKind.Utc).AddTicks(1676),
                             FlujometroActivo = false,
+                            HorasOperacion = 0,
                             Nombre = "Bomba 1",
+                            Prioridad = 1,
                             RelayActivo = false,
                             SalvaMotorActivo = false,
-                            UltimaActualizacion = new DateTime(2025, 7, 29, 19, 52, 51, 48, DateTimeKind.Utc).AddTicks(4685)
+                            TipoFalla = 0,
+                            UltimaActualizacion = new DateTime(2025, 8, 12, 19, 13, 2, 327, DateTimeKind.Utc).AddTicks(1676)
                         },
                         new
                         {
                             Id = 2,
                             Descripcion = "Bomba secundaria del sector A",
+                            EsBombaReserva = false,
                             EstaEncendida = false,
-                            FechaCreacion = new DateTime(2025, 7, 29, 19, 52, 51, 48, DateTimeKind.Utc).AddTicks(4687),
+                            Estado = 0,
+                            FechaCreacion = new DateTime(2025, 8, 12, 19, 13, 2, 327, DateTimeKind.Utc).AddTicks(1679),
                             FlujometroActivo = false,
+                            HorasOperacion = 0,
                             Nombre = "Bomba 2",
+                            Prioridad = 1,
                             RelayActivo = false,
                             SalvaMotorActivo = false,
-                            UltimaActualizacion = new DateTime(2025, 7, 29, 19, 52, 51, 48, DateTimeKind.Utc).AddTicks(4687)
+                            TipoFalla = 0,
+                            UltimaActualizacion = new DateTime(2025, 8, 12, 19, 13, 2, 327, DateTimeKind.Utc).AddTicks(1679)
                         },
                         new
                         {
                             Id = 3,
                             Descripcion = "Bomba de respaldo del sector B",
+                            EsBombaReserva = false,
                             EstaEncendida = false,
-                            FechaCreacion = new DateTime(2025, 7, 29, 19, 52, 51, 48, DateTimeKind.Utc).AddTicks(4689),
+                            Estado = 0,
+                            FechaCreacion = new DateTime(2025, 8, 12, 19, 13, 2, 327, DateTimeKind.Utc).AddTicks(1681),
                             FlujometroActivo = false,
+                            HorasOperacion = 0,
                             Nombre = "Bomba 3",
+                            Prioridad = 1,
                             RelayActivo = false,
                             SalvaMotorActivo = false,
-                            UltimaActualizacion = new DateTime(2025, 7, 29, 19, 52, 51, 48, DateTimeKind.Utc).AddTicks(4689)
+                            TipoFalla = 0,
+                            UltimaActualizacion = new DateTime(2025, 8, 12, 19, 13, 2, 327, DateTimeKind.Utc).AddTicks(1682)
+                        });
+                });
+
+            modelBuilder.Entity("Domain.Entities.Tanque", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<double>("CapacidadMaxima")
+                        .HasColumnType("double");
+
+                    b.Property<string>("Descripcion")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("varchar(500)");
+
+                    b.Property<bool>("EstaActivo")
+                        .HasColumnType("tinyint(1)");
+
+                    b.Property<DateTime>("FechaCreacion")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<double>("NivelAgua")
+                        .HasColumnType("double");
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("varchar(100)");
+
+                    b.Property<DateTime>("UltimaActualizacion")
+                        .HasColumnType("datetime(6)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Tanques");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CapacidadMaxima = 10000.0,
+                            Descripcion = "Tanque principal de almacenamiento de agua",
+                            EstaActivo = true,
+                            FechaCreacion = new DateTime(2025, 8, 12, 19, 13, 2, 327, DateTimeKind.Utc).AddTicks(1792),
+                            NivelAgua = 75.0,
+                            Nombre = "Tanque Principal",
+                            UltimaActualizacion = new DateTime(2025, 8, 12, 19, 13, 2, 327, DateTimeKind.Utc).AddTicks(1792)
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CapacidadMaxima = 5000.0,
+                            Descripcion = "Tanque de reserva para el sector A",
+                            EstaActivo = true,
+                            FechaCreacion = new DateTime(2025, 8, 12, 19, 13, 2, 327, DateTimeKind.Utc).AddTicks(1794),
+                            NivelAgua = 45.0,
+                            Nombre = "Tanque Secundario",
+                            UltimaActualizacion = new DateTime(2025, 8, 12, 19, 13, 2, 327, DateTimeKind.Utc).AddTicks(1795)
+                        },
+                        new
+                        {
+                            Id = 3,
+                            CapacidadMaxima = 3000.0,
+                            Descripcion = "Tanque elevado para distribución por gravedad",
+                            EstaActivo = true,
+                            FechaCreacion = new DateTime(2025, 8, 12, 19, 13, 2, 327, DateTimeKind.Utc).AddTicks(1796),
+                            NivelAgua = 15.0,
+                            Nombre = "Tanque Elevado",
+                            UltimaActualizacion = new DateTime(2025, 8, 12, 19, 13, 2, 327, DateTimeKind.Utc).AddTicks(1797)
                         });
                 });
 

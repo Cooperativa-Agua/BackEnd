@@ -19,49 +19,114 @@
             Crea una nueva bomba
             </summary>
         </member>
-        <member name="M:Web.Controllers.BombasController.UpdateBombaEstado(System.Int32,Application.Models.UpdateBombaEstadoDto)">
+        <member name="M:Web.Controllers.BombasController.ReportarFallaBomba(System.Int32,Application.Models.ReportarFallaDto)">
             <summary>
-            Actualiza el estado completo de una bomba
+            Reportar falla en una bomba (activa automáticamente el sistema de redundancia)
+            </summary>
+        </member>
+        <member name="M:Web.Controllers.BombasController.RepararBomba(System.Int32)">
+            <summary>
+            Reparar una bomba con falla
+            </summary>
+        </member>
+        <member name="M:Web.Controllers.BombasController.VerificarRedundancia">
+            <summary>
+            Verificar y mantener redundancia manualmente
+            </summary>
+        </member>
+        <member name="M:Web.Controllers.BombasController.GetEstadoRedundancia">
+            <summary>
+            Obtener estado completo del sistema de redundancia
+            </summary>
+        </member>
+        <member name="M:Web.Controllers.BombasController.ForzarCambioTurno">
+            <summary>
+            Forzar cambio de turno de bombas (rotar bombas activas)
             </summary>
         </member>
         <member name="M:Web.Controllers.BombasController.EncenderBomba(System.Int32)">
             <summary>
-            Enciende una bomba específica
+            Enciende una bomba específica (respetando reglas de redundancia)
             </summary>
         </member>
         <member name="M:Web.Controllers.BombasController.ApagarBomba(System.Int32)">
             <summary>
-            Apaga una bomba específica
+            Apaga una bomba específica (verificando que se mantenga redundancia)
             </summary>
         </member>
-        <member name="M:Web.Controllers.BombasController.DeleteBomba(System.Int32)">
+        <member name="M:Web.Controllers.BombasController.PonerEnMantenimiento(System.Int32,Application.Models.BombaMantenimientoDto)">
             <summary>
-            Elimina una bomba
+            Poner bomba en mantenimiento
             </summary>
         </member>
-        <member name="M:Web.Controllers.BombasController.GetEstadoResumen">
+        <member name="M:Web.Controllers.BombasController.UpdateBombaEstado(System.Int32,Application.Models.UpdateBombaEstadoDto)">
             <summary>
-            Obtiene un resumen del estado de todas las bombas
+            Actualiza el estado completo de una bomba y verifica redundancia
             </summary>
         </member>
-        <member name="M:Web.Controllers.BombasController.GetBombasEncendidas">
+        <member name="M:Web.Controllers.BombasController.RecibirEstadoSensor(System.Int32,Web.Controllers.SensorEstadoBombaDto)">
             <summary>
-            Obtiene solo las bombas que están encendidas
+            Recibir señal del sensor de bomba para monitoreo automático
             </summary>
         </member>
-        <member name="M:Web.Controllers.BombasController.GetBombasApagadas">
+        <member name="M:Web.Controllers.TanquesController.GetAllTanques">
             <summary>
-            Obtiene solo las bombas que están apagadas
+            Obtiene todos los tanques
             </summary>
         </member>
-        <member name="M:Web.Controllers.BombasController.EncenderTodasLasBombas">
+        <member name="M:Web.Controllers.TanquesController.GetTanqueById(System.Int32)">
             <summary>
-            Enciende todas las bombas
+            Obtiene un tanque por ID
             </summary>
         </member>
-        <member name="M:Web.Controllers.BombasController.ApagarTodasLasBombas">
+        <member name="M:Web.Controllers.TanquesController.CreateTanque(Application.Models.CreateTanqueDto)">
             <summary>
-            Apaga todas las bombas
+            Crea un nuevo tanque
+            </summary>
+        </member>
+        <member name="M:Web.Controllers.TanquesController.UpdateNivelTanque(System.Int32,Application.Models.UpdateNivelTanqueDto)">
+            <summary>
+            Actualiza el nivel de agua de un tanque mediante DTO
+            </summary>
+        </member>
+        <member name="M:Web.Controllers.TanquesController.RecibirSenalNivel(System.Int32,System.Double)">
+            <summary>
+            Recibe señal directa del sensor y actualiza el nivel de agua (endpoint principal para señales de sensores)
+            </summary>
+        </member>
+        <member name="M:Web.Controllers.TanquesController.DeleteTanque(System.Int32)">
+            <summary>
+            Elimina un tanque
+            </summary>
+        </member>
+        <member name="M:Web.Controllers.TanquesController.GetResumenTanques">
+            <summary>
+            Obtiene un resumen completo del estado de todos los tanques
+            </summary>
+        </member>
+        <member name="M:Web.Controllers.TanquesController.GetTanquesActivos">
+            <summary>
+            Obtiene solo los tanques activos
+            </summary>
+        </member>
+        <member name="M:Web.Controllers.TanquesController.GetTanquesPorEstadoNivel(System.String)">
+            <summary>
+            Obtiene tanques filtrados por estado de nivel (critico, bajo, medio, alto)
+            </summary>
+        </member>
+        <member name="M:Web.Controllers.TanquesController.GetTanquesNivelCritico">
+            <summary>
+            Obtiene tanques con nivel crítico (menos del 20%)
+            </summary>
+        </member>
+        <member name="M:Web.Controllers.TanquesController.GetTanquesPorRangoNivel(System.Double,System.Double)">
+            <summary>
+            Obtiene tanques por rango de nivel personalizado
+            </summary>
+        </member>
+        <member name="M:Web.Controllers.TanquesController.RecibirDatoSensor(System.Int32,System.Double)">
+            <summary>
+            Endpoint simplificado para recibir solo el valor numérico del sensor
             </summary>
         </member>
     </members>

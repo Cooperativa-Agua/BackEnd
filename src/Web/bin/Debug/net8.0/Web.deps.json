@@ -688,7 +688,8 @@
       "System.Threading.Channels/6.0.0": {},
       "Application/1.0.0": {
         "dependencies": {
-          "Domain": "1.0.0"
+          "Domain": "1.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.2"
         },
         "runtime": {
           "Application.dll": {}
