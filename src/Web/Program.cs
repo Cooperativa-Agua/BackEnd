@@ -1,7 +1,6 @@
-using Application.Interfaces;
+Ôªøusing Application.Interfaces;
 using Application.Services;
 using Domain.Interfaces;
-using Infrastructure.Data;
 using Infrastructure.Data;
 using Infrastructure.Services;
 using Microsoft.EntityFrameworkCore;
@@ -11,10 +10,9 @@ using System.Reflection;
 using System.Text;
 using Web.Middlewares;
 
-
 var builder = WebApplication.CreateBuilder(args);
 
-// Configurar DbContext con MySQL
+// DbContext (MySQL)
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseMySql(
         builder.Configuration.GetConnectionString("DefaultConnection"),
@@ -22,15 +20,16 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     )
 );
 
+// Controllers & Swagger
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(setupAction =>
 {
-    setupAction.AddSecurityDefinition("CooperativaApiBearerAuth", new OpenApiSecurityScheme() //Esto va a permitir usar swagger con el token.
+    setupAction.AddSecurityDefinition("CooperativaApiBearerAuth", new OpenApiSecurityScheme
     {
         Type = SecuritySchemeType.Http,
         Scheme = "Bearer",
-        Description = "Ac· pegar el token generado al loguearse."
+        Description = "Ac√° pegar el token generado al loguearse."
     });
 
     setupAction.AddSecurityRequirement(new OpenApiSecurityRequirement
@@ -41,16 +40,19 @@ builder.Services.AddSwaggerGen(setupAction =>
                 Reference = new OpenApiReference
                 {
                     Type = ReferenceType.SecurityScheme,
-                    Id = "CooperativaApiBearerAuth" } //Tiene que coincidir con el id seteado arriba en la definiciÛn
-                }, new List<string>() }
+                    Id = "CooperativaApiBearerAuth"
+                }
+            },
+            new List<string>()
+        }
     });
 
     var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
     var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
     setupAction.IncludeXmlComments(xmlPath);
-
 });
 
+// Auth (JWT)
 builder.Services.AddAuthentication("Bearer")
     .AddJwtBearer(options =>
     {
@@ -61,79 +63,71 @@ builder.Services.AddAuthentication("Bearer")
             ValidateIssuerSigningKey = true,
             ValidIssuer = builder.Configuration["AuthenticationService:Issuer"],
             ValidAudience = builder.Configuration["AuthenticationService:Audience"],
-            IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(builder.Configuration["AuthenticationService:SecretForKey"]))
+            IssuerSigningKey = new SymmetricSecurityKey(
+                Encoding.ASCII.GetBytes(builder.Configuration["AuthenticationService:SecretForKey"])
+            )
         };
     });
 
-
-#region Repositories
+// Repositories
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IBombaRepository, BombaRepository>();
 builder.Services.AddScoped<ITanqueRepository, TanqueRepository>();
-#endregion
 
-
-
-#region services
-
+// Services
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IBombaService, BombaService>();
 builder.Services.AddScoped<ITanqueService, TanqueService>();
 builder.Services.AddScoped<IBombaRedundanciaService, BombaRedundanciaService>();
 builder.Services.AddScoped<ICustomAuthenticationService, AuthenticationService>();
 
-// ConfiguraciÛn de las opciones de autenticaciÛn
-// ConfiguraciÛn de las opciones de autenticaciÛn
 builder.Services.Configure<AuthenticationService.AuthenticationServiceOptions>(
-    builder.Configuration.GetSection(AuthenticationService.AuthenticationServiceOptions.AuthenticationService));
+    builder.Configuration.GetSection(AuthenticationService.AuthenticationServiceOptions.AuthenticationService)
+);
 
-
-// Registro de servicios
-
-
-//MERCADOPAGO
-
-
+// Middlewares
 builder.Services.AddTransient<GlobalExceptionHandlingMiddleware>();
-#endregion
 
-//CORS para conexion con el front
+// CORS para conexi√≥n con el front (Vite)
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontendDev", policy =>
     {
         policy
-          .WithOrigins("http://localhost:5173", "https://localhost:5173")
-          .AllowAnyHeader()
-          .AllowAnyMethod();
-        // .AllowCredentials(); // solo si usas cookies
+            .WithOrigins("http://localhost:5173", "https://localhost:5173")
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+        // .AllowCredentials(); // descomentar si us√°s cookies/credenciales
     });
 });
 
-
 var app = builder.Build();
 
-app.UseMiddleware<GlobalExceptionHandlingMiddleware>();
-
-//if (app.Environment.IsDevelopment())
-//{
+// Swagger (puede quedar siempre habilitado para dev)
 app.UseSwagger();
 app.UseSwaggerUI();
-//}
 
 
-// app.UseStaticFiles();  no lo necesito mas
+// app.UseHttpsRedirection();
+if (!app.Environment.IsDevelopment())
+{
+    app.UseHttpsRedirection();
+}
 
-app.UseHttpsRedirection();
 
-app.UseCors("AllowFrontendDev");
+// ‚¨áÔ∏è ORDEN CORRECTO CON ENDPOINT ROUTING
+app.UseRouting();                   // 1) Routing
+app.UseCors("AllowFrontendDev");    // 2) CORS (antes de auth y antes de cualquier write)
 
-app.UseAuthentication();
+// Middleware global de excepciones (despu√©s de CORS)
+app.UseMiddleware<GlobalExceptionHandlingMiddleware>();
 
-app.UseAuthorization();
+app.UseAuthentication();            // 3) Auth
+app.UseAuthorization();             // 4) AuthZ
 
-app.MapControllers();
+app.MapControllers();               // 5) Endpoints
 
+// Inicializaci√≥n de redundancia
 using (var scope = app.Services.CreateScope())
 {
     var redundanciaService = scope.ServiceProvider.GetRequiredService<IBombaRedundanciaService>();
@@ -146,7 +140,7 @@ using (var scope = app.Services.CreateScope())
 
         if (resultado.EstadoCritico)
         {
-            logger.LogCritical("ATENCI”N: Sistema iniciado en estado crÌtico - {Descripcion}", resultado.Descripcion);
+            logger.LogCritical("ATENCI√ìN: Sistema iniciado en estado cr√≠tico - {Descripcion}", resultado.Descripcion);
         }
     }
     catch (Exception ex)

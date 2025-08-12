@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE36A269-D6D1-4485-BB73-7AF0691AC572}|src\\Domain\\Domain.csproj|c:\\users\\juan martin\\desktop\\coop\\backend\\src\\domain\\entities\\bomba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE36A269-D6D1-4485-BB73-7AF0691AC572}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\entities\\bomba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D7E63B59-FCA2-4605-8A6B-7E947EEC69BA}|src\\Web\\Web.csproj|c:\\users\\juan martin\\desktop\\coop\\backend\\src\\web\\controllers\\bombascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7E63B59-FCA2-4605-8A6B-7E947EEC69BA}|src\\Web\\Web.csproj|solutionrelative:src\\web\\controllers\\bombascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D7E63B59-FCA2-4605-8A6B-7E947EEC69BA}|src\\Web\\Web.csproj|c:\\users\\juan martin\\desktop\\coop\\backend\\src\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7E63B59-FCA2-4605-8A6B-7E947EEC69BA}|src\\Web\\Web.csproj|solutionrelative:src\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Infrastructure\\Migrations\\20250812191302_Bombas Redundancia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Infrastructure\\Migrations\\20250812191302_Bombas Redundancia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC5E0F99-3F4C-4647-877C-C76EA883300D}|src\\Infrastructure\\Infrastructure.csproj|c:\\users\\juan martin\\desktop\\coop\\backend\\src\\infrastructure\\services\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC5E0F99-3F4C-4647-877C-C76EA883300D}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\services\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC5E0F99-3F4C-4647-877C-C76EA883300D}|src\\Infrastructure\\Infrastructure.csproj|c:\\users\\juan martin\\desktop\\coop\\backend\\src\\infrastructure\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC5E0F99-3F4C-4647-877C-C76EA883300D}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE36A269-D6D1-4485-BB73-7AF0691AC572}|src\\Domain\\Domain.csproj|c:\\users\\juan martin\\desktop\\coop\\backend\\src\\domain\\entities\\bomba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE36A269-D6D1-4485-BB73-7AF0691AC572}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\entities\\bomba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4EDD1B00-0F5F-4B3D-838C-FCD102540AC3}|src\\Application\\Application.csproj|c:\\users\\juan martin\\desktop\\coop\\backend\\src\\application\\models\\bombaacciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4EDD1B00-0F5F-4B3D-838C-FCD102540AC3}|src\\Application\\Application.csproj|c:\\users\\juan martin\\desktop\\coop\\backend\\src\\application\\interfaces\\ibombaredundanciaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4EDD1B00-0F5F-4B3D-838C-FCD102540AC3}|src\\Application\\Application.csproj|solutionrelative:src\\application\\interfaces\\ibombaredundanciaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7E63B59-FCA2-4605-8A6B-7E947EEC69BA}|src\\Web\\Web.csproj|c:\\users\\juan martin\\desktop\\coop\\backend\\src\\web\\controllers\\bombascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7E63B59-FCA2-4605-8A6B-7E947EEC69BA}|src\\Web\\Web.csproj|solutionrelative:src\\web\\controllers\\bombascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC5E0F99-3F4C-4647-877C-C76EA883300D}|src\\Infrastructure\\Infrastructure.csproj|c:\\users\\juan martin\\desktop\\coop\\backend\\src\\infrastructure\\services\\bombaredundanciabackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -75,24 +79,12 @@
       "RelativeMoniker": "D:0:0:{BE36A269-D6D1-4485-BB73-7AF0691AC572}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\enums\\estadobomba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Infrastructure\\Migrations\\20250812184313_Tanques2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Infrastructure\\Migrations\\20250812184313_Tanques2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CC5E0F99-3F4C-4647-877C-C76EA883300D}|src\\Infrastructure\\Infrastructure.csproj|c:\\users\\juan martin\\desktop\\coop\\backend\\src\\infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC5E0F99-3F4C-4647-877C-C76EA883300D}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Infrastructure\\Migrations\\20250812184200_Tanques.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Infrastructure\\Migrations\\20250812184200_Tanques.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4EDD1B00-0F5F-4B3D-838C-FCD102540AC3}|src\\Application\\Application.csproj|c:\\users\\juan martin\\desktop\\coop\\backend\\src\\application\\models\\tanquedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4EDD1B00-0F5F-4B3D-838C-FCD102540AC3}|src\\Application\\Application.csproj|solutionrelative:src\\application\\models\\tanquedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC5E0F99-3F4C-4647-877C-C76EA883300D}|src\\Infrastructure\\Infrastructure.csproj|c:\\users\\juan martin\\desktop\\coop\\backend\\src\\infrastructure\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC5E0F99-3F4C-4647-877C-C76EA883300D}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D7E63B59-FCA2-4605-8A6B-7E947EEC69BA}|src\\Web\\Web.csproj|c:\\users\\juan martin\\desktop\\coop\\backend\\src\\web\\controllers\\tanquescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -203,10 +195,6 @@
       "RelativeMoniker": "D:0:0:{CC5E0F99-3F4C-4647-877C-C76EA883300D}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\data\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC5E0F99-3F4C-4647-877C-C76EA883300D}|src\\Infrastructure\\Infrastructure.csproj|c:\\users\\juan martin\\desktop\\coop\\backend\\src\\infrastructure\\services\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC5E0F99-3F4C-4647-877C-C76EA883300D}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\services\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4EDD1B00-0F5F-4B3D-838C-FCD102540AC3}|src\\Application\\Application.csproj|c:\\users\\juan martin\\desktop\\coop\\backend\\src\\application\\models\\credentialsauthenticatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4EDD1B00-0F5F-4B3D-838C-FCD102540AC3}|src\\Application\\Application.csproj|solutionrelative:src\\application\\models\\credentialsauthenticatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -252,6 +240,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{4EDD1B00-0F5F-4B3D-838C-FCD102540AC3}|src\\Application\\Application.csproj|c:\\users\\juan martin\\desktop\\coop\\backend\\src\\application\\models\\createbombadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4EDD1B00-0F5F-4B3D-838C-FCD102540AC3}|src\\Application\\Application.csproj|solutionrelative:src\\application\\models\\createbombadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC5E0F99-3F4C-4647-877C-C76EA883300D}|src\\Infrastructure\\Infrastructure.csproj|c:\\users\\juan martin\\desktop\\coop\\backend\\src\\infrastructure\\migrations\\20250812191302_bombas redundancia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC5E0F99-3F4C-4647-877C-C76EA883300D}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\migrations\\20250812191302_bombas redundancia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC5E0F99-3F4C-4647-877C-C76EA883300D}|src\\Infrastructure\\Infrastructure.csproj|c:\\users\\juan martin\\desktop\\coop\\backend\\src\\infrastructure\\migrations\\20250812184313_tanques2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC5E0F99-3F4C-4647-877C-C76EA883300D}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\migrations\\20250812184313_tanques2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC5E0F99-3F4C-4647-877C-C76EA883300D}|src\\Infrastructure\\Infrastructure.csproj|c:\\users\\juan martin\\desktop\\coop\\backend\\src\\infrastructure\\migrations\\20250812184200_tanques.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC5E0F99-3F4C-4647-877C-C76EA883300D}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\migrations\\20250812184200_tanques.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -261,7 +261,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -277,85 +277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20250812191302_Bombas Redundancia.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Infrastructure\\Migrations\\20250812191302_Bombas Redundancia.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\Migrations\\20250812191302_Bombas Redundancia.cs",
-              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Infrastructure\\Migrations\\20250812191302_Bombas Redundancia.cs",
-              "RelativeToolTip": "src\\Infrastructure\\Migrations\\20250812191302_Bombas Redundancia.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T19:13:02.682Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BombaService.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Services\\BombaService.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Services\\BombaService.cs",
-              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Services\\BombaService.cs",
-              "RelativeToolTip": "src\\Application\\Services\\BombaService.cs",
-              "ViewState": "AQIAAAYBAAAAAAAAAAAWwAQBAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T18:37:42.68Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Web\\Program.cs",
-              "RelativeDocumentMoniker": "src\\Web\\Program.cs",
-              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Web\\Program.cs",
-              "RelativeToolTip": "src\\Web\\Program.cs",
-              "ViewState": "AQIAAH8AAAAAAAAAAAAswIoAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T18:41:50.519Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Bomba.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Domain\\Entities\\Bomba.cs",
-              "RelativeDocumentMoniker": "src\\Domain\\Entities\\Bomba.cs",
-              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Domain\\Entities\\Bomba.cs",
-              "RelativeToolTip": "src\\Domain\\Entities\\Bomba.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAqwIAAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T18:33:16.802Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "BombasController.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Web\\Controllers\\BombasController.cs",
-              "RelativeDocumentMoniker": "src\\Web\\Controllers\\BombasController.cs",
-              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Web\\Controllers\\BombasController.cs",
-              "RelativeToolTip": "src\\Web\\Controllers\\BombasController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJMBAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T18:40:56.54Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BombaRedundanciaService.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Services\\BombaRedundanciaService.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Services\\BombaRedundanciaService.cs",
-              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Services\\BombaRedundanciaService.cs",
-              "RelativeToolTip": "src\\Application\\Services\\BombaRedundanciaService.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAjwBMAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T19:03:02.257Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "IBombaRedundanciaService.cs",
               "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Interfaces\\IBombaRedundanciaService.cs",
               "RelativeDocumentMoniker": "src\\Application\\Interfaces\\IBombaRedundanciaService.cs",
@@ -363,12 +285,11 @@
               "RelativeToolTip": "src\\Application\\Interfaces\\IBombaRedundanciaService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T19:03:21.88Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-12T19:03:21.88Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "IBombaRepository.cs",
               "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Domain\\Interfaces\\IBombaRepository.cs",
               "RelativeDocumentMoniker": "src\\Domain\\Interfaces\\IBombaRepository.cs",
@@ -376,12 +297,11 @@
               "RelativeToolTip": "src\\Domain\\Interfaces\\IBombaRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T18:34:15.824Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-24T18:34:15.824Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "BombaAccionDto.cs",
               "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Models\\BombaAccionDto.cs",
               "RelativeDocumentMoniker": "src\\Application\\Models\\BombaAccionDto.cs",
@@ -389,246 +309,11 @@
               "RelativeToolTip": "src\\Application\\Models\\BombaAccionDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T19:04:28.324Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-12T19:04:28.324Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ActualizarPrioridadDto.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Models\\ActualizarPrioridadDto.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Models\\ActualizarPrioridadDto.cs",
-              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Models\\ActualizarPrioridadDto.cs",
-              "RelativeToolTip": "src\\Application\\Models\\ActualizarPrioridadDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T19:05:40.032Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "BombaRedundanciaBackgroundService.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Infrastructure\\Services\\BombaRedundanciaBackgroundService.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\Services\\BombaRedundanciaBackgroundService.cs",
-              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Infrastructure\\Services\\BombaRedundanciaBackgroundService.cs",
-              "RelativeToolTip": "src\\Infrastructure\\Services\\BombaRedundanciaBackgroundService.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAmwEkAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T19:06:43.256Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "BombaMantenimientoDto.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Models\\BombaMantenimientoDto.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Models\\BombaMantenimientoDto.cs",
-              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Models\\BombaMantenimientoDto.cs",
-              "RelativeToolTip": "src\\Application\\Models\\BombaMantenimientoDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T19:05:23.431Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ReportarFallaDto.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Models\\ReportarFallaDto.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Models\\ReportarFallaDto.cs",
-              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Models\\ReportarFallaDto.cs",
-              "RelativeToolTip": "src\\Application\\Models\\ReportarFallaDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T19:05:10.797Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "BombaEstadoDto.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Models\\BombaEstadoDto.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Models\\BombaEstadoDto.cs",
-              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Models\\BombaEstadoDto.cs",
-              "RelativeToolTip": "src\\Application\\Models\\BombaEstadoDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T19:04:57.742Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "EstadoRedundanciaDto.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Models\\EstadoRedundanciaDto.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Models\\EstadoRedundanciaDto.cs",
-              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Models\\EstadoRedundanciaDto.cs",
-              "RelativeToolTip": "src\\Application\\Models\\EstadoRedundanciaDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T19:04:45.713Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "RedundanciaResultDto.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Models\\RedundanciaResultDto.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Models\\RedundanciaResultDto.cs",
-              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Models\\RedundanciaResultDto.cs",
-              "RelativeToolTip": "src\\Application\\Models\\RedundanciaResultDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T19:04:14.184Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "BombaDto.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Models\\BombaDto.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Models\\BombaDto.cs",
-              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Models\\BombaDto.cs",
-              "RelativeToolTip": "src\\Application\\Models\\BombaDto.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAA4wBsAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T18:35:15.025Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "EstadoBomba.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Domain\\Enums\\EstadoBomba.cs",
-              "RelativeDocumentMoniker": "src\\Domain\\Enums\\EstadoBomba.cs",
-              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Domain\\Enums\\EstadoBomba.cs",
-              "RelativeToolTip": "src\\Domain\\Enums\\EstadoBomba.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T19:01:30.294Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "20250812184313_Tanques2.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Infrastructure\\Migrations\\20250812184313_Tanques2.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\Migrations\\20250812184313_Tanques2.cs",
-              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Infrastructure\\Migrations\\20250812184313_Tanques2.cs",
-              "RelativeToolTip": "src\\Infrastructure\\Migrations\\20250812184313_Tanques2.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T18:43:13.269Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "TanquesController.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Web\\Controllers\\TanquesController.cs",
-              "RelativeDocumentMoniker": "src\\Web\\Controllers\\TanquesController.cs",
-              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Web\\Controllers\\TanquesController.cs",
-              "RelativeToolTip": "src\\Web\\Controllers\\TanquesController.cs",
-              "ViewState": "AQIAACABAAAAAAAAAAAcwFcBAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T18:37:30.699Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "TanqueService.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Services\\TanqueService.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Services\\TanqueService.cs",
-              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Services\\TanqueService.cs",
-              "RelativeToolTip": "src\\Application\\Services\\TanqueService.cs",
-              "ViewState": "AQIAAJMAAAAAAAAAAAAmwLMAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T18:37:07.986Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "TanqueRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Infrastructure\\Data\\TanqueRepository.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\Data\\TanqueRepository.cs",
-              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Infrastructure\\Data\\TanqueRepository.cs",
-              "RelativeToolTip": "src\\Infrastructure\\Data\\TanqueRepository.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAgwEkAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T18:36:47.636Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ITanqueService.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Interfaces\\ITanqueService.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Interfaces\\ITanqueService.cs",
-              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Interfaces\\ITanqueService.cs",
-              "RelativeToolTip": "src\\Application\\Interfaces\\ITanqueService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T18:36:31.4Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "ITanqueRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Domain\\Interfaces\\ITanqueRepository.cs",
-              "RelativeDocumentMoniker": "src\\Domain\\Interfaces\\ITanqueRepository.cs",
-              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Domain\\Interfaces\\ITanqueRepository.cs",
-              "RelativeToolTip": "src\\Domain\\Interfaces\\ITanqueRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T18:36:14.534Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "HitorialNivelDto.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Models\\HitorialNivelDto.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Models\\HitorialNivelDto.cs",
-              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Models\\HitorialNivelDto.cs",
-              "RelativeToolTip": "src\\Application\\Models\\HitorialNivelDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T18:35:40.451Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "20250812184200_Tanques.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Infrastructure\\Migrations\\20250812184200_Tanques.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\Migrations\\20250812184200_Tanques.cs",
-              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Infrastructure\\Migrations\\20250812184200_Tanques.cs",
-              "RelativeToolTip": "src\\Infrastructure\\Migrations\\20250812184200_Tanques.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T18:42:00.253Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Infrastructure\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Infrastructure\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "src\\Infrastructure\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAH0AAAAAAAAAAAAmwJYAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T18:39:37.359Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 3,
               "Title": "AuthenticationService.cs",
               "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Infrastructure\\Services\\AuthenticationService.cs",
               "RelativeDocumentMoniker": "src\\Infrastructure\\Services\\AuthenticationService.cs",
@@ -641,7 +326,311 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Infrastructure\\Services\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\Services\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Infrastructure\\Services\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "src\\Infrastructure\\Services\\ExceptionMiddleware.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAwwBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T18:43:42.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Web\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Web\\Program.cs",
+              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Web\\Program.cs",
+              "RelativeToolTip": "src\\Web\\Program.cs",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAAAHYAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T18:41:50.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BombasController.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Web\\Controllers\\BombasController.cs",
+              "RelativeDocumentMoniker": "src\\Web\\Controllers\\BombasController.cs",
+              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Web\\Controllers\\BombasController.cs",
+              "RelativeToolTip": "src\\Web\\Controllers\\BombasController.cs",
+              "ViewState": "AQIAAL4BAAAAAAAAAAAAAJMBAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T18:40:56.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BombaRedundanciaService.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Services\\BombaRedundanciaService.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Services\\BombaRedundanciaService.cs",
+              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Services\\BombaRedundanciaService.cs",
+              "RelativeToolTip": "src\\Application\\Services\\BombaRedundanciaService.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAjwBMAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T19:03:02.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Bomba.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Domain\\Entities\\Bomba.cs",
+              "RelativeDocumentMoniker": "src\\Domain\\Entities\\Bomba.cs",
+              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Domain\\Entities\\Bomba.cs",
+              "RelativeToolTip": "src\\Domain\\Entities\\Bomba.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA5wDMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T18:33:16.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BombaService.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Services\\BombaService.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Services\\BombaService.cs",
+              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Services\\BombaService.cs",
+              "RelativeToolTip": "src\\Application\\Services\\BombaService.cs",
+              "ViewState": "AQIAAAYBAAAAAAAAAAAWwAQBAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T18:37:42.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "20250812191302_Bombas Redundancia.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Infrastructure\\Migrations\\20250812191302_Bombas Redundancia.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\Migrations\\20250812191302_Bombas Redundancia.cs",
+              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Infrastructure\\Migrations\\20250812191302_Bombas Redundancia.cs",
+              "RelativeToolTip": "src\\Infrastructure\\Migrations\\20250812191302_Bombas Redundancia.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T19:13:02.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ActualizarPrioridadDto.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Models\\ActualizarPrioridadDto.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Models\\ActualizarPrioridadDto.cs",
+              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Models\\ActualizarPrioridadDto.cs",
+              "RelativeToolTip": "src\\Application\\Models\\ActualizarPrioridadDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T19:05:40.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BombaRedundanciaBackgroundService.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Infrastructure\\Services\\BombaRedundanciaBackgroundService.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\Services\\BombaRedundanciaBackgroundService.cs",
+              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Infrastructure\\Services\\BombaRedundanciaBackgroundService.cs",
+              "RelativeToolTip": "src\\Infrastructure\\Services\\BombaRedundanciaBackgroundService.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAmwEkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T19:06:43.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BombaMantenimientoDto.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Models\\BombaMantenimientoDto.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Models\\BombaMantenimientoDto.cs",
+              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Models\\BombaMantenimientoDto.cs",
+              "RelativeToolTip": "src\\Application\\Models\\BombaMantenimientoDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T19:05:23.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ReportarFallaDto.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Models\\ReportarFallaDto.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Models\\ReportarFallaDto.cs",
+              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Models\\ReportarFallaDto.cs",
+              "RelativeToolTip": "src\\Application\\Models\\ReportarFallaDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T19:05:10.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BombaEstadoDto.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Models\\BombaEstadoDto.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Models\\BombaEstadoDto.cs",
+              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Models\\BombaEstadoDto.cs",
+              "RelativeToolTip": "src\\Application\\Models\\BombaEstadoDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T19:04:57.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EstadoRedundanciaDto.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Models\\EstadoRedundanciaDto.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Models\\EstadoRedundanciaDto.cs",
+              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Models\\EstadoRedundanciaDto.cs",
+              "RelativeToolTip": "src\\Application\\Models\\EstadoRedundanciaDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T19:04:45.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RedundanciaResultDto.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Models\\RedundanciaResultDto.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Models\\RedundanciaResultDto.cs",
+              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Models\\RedundanciaResultDto.cs",
+              "RelativeToolTip": "src\\Application\\Models\\RedundanciaResultDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T19:04:14.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BombaDto.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Models\\BombaDto.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Models\\BombaDto.cs",
+              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Models\\BombaDto.cs",
+              "RelativeToolTip": "src\\Application\\Models\\BombaDto.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAA4wBsAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T18:35:15.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EstadoBomba.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Domain\\Enums\\EstadoBomba.cs",
+              "RelativeDocumentMoniker": "src\\Domain\\Enums\\EstadoBomba.cs",
+              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Domain\\Enums\\EstadoBomba.cs",
+              "RelativeToolTip": "src\\Domain\\Enums\\EstadoBomba.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T19:01:30.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "20250812184313_Tanques2.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Infrastructure\\Migrations\\20250812184313_Tanques2.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\Migrations\\20250812184313_Tanques2.cs",
+              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Infrastructure\\Migrations\\20250812184313_Tanques2.cs",
+              "RelativeToolTip": "src\\Infrastructure\\Migrations\\20250812184313_Tanques2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T18:43:13.269Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 21,
+              "Title": "TanquesController.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Web\\Controllers\\TanquesController.cs",
+              "RelativeDocumentMoniker": "src\\Web\\Controllers\\TanquesController.cs",
+              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Web\\Controllers\\TanquesController.cs",
+              "RelativeToolTip": "src\\Web\\Controllers\\TanquesController.cs",
+              "ViewState": "AQIAACABAAAAAAAAAAAcwFcBAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T18:37:30.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TanqueService.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Services\\TanqueService.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Services\\TanqueService.cs",
+              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Services\\TanqueService.cs",
+              "RelativeToolTip": "src\\Application\\Services\\TanqueService.cs",
+              "ViewState": "AQIAAJMAAAAAAAAAAAAmwLMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T18:37:07.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "TanqueRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Infrastructure\\Data\\TanqueRepository.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\Data\\TanqueRepository.cs",
+              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Infrastructure\\Data\\TanqueRepository.cs",
+              "RelativeToolTip": "src\\Infrastructure\\Data\\TanqueRepository.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAgwEkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T18:36:47.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ITanqueService.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Interfaces\\ITanqueService.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Interfaces\\ITanqueService.cs",
+              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Interfaces\\ITanqueService.cs",
+              "RelativeToolTip": "src\\Application\\Interfaces\\ITanqueService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T18:36:31.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ITanqueRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Domain\\Interfaces\\ITanqueRepository.cs",
+              "RelativeDocumentMoniker": "src\\Domain\\Interfaces\\ITanqueRepository.cs",
+              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Domain\\Interfaces\\ITanqueRepository.cs",
+              "RelativeToolTip": "src\\Domain\\Interfaces\\ITanqueRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T18:36:14.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "HitorialNivelDto.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Models\\HitorialNivelDto.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Models\\HitorialNivelDto.cs",
+              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Models\\HitorialNivelDto.cs",
+              "RelativeToolTip": "src\\Application\\Models\\HitorialNivelDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T18:35:40.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "20250812184200_Tanques.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Infrastructure\\Migrations\\20250812184200_Tanques.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\Migrations\\20250812184200_Tanques.cs",
+              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Infrastructure\\Migrations\\20250812184200_Tanques.cs",
+              "RelativeToolTip": "src\\Infrastructure\\Migrations\\20250812184200_Tanques.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T18:42:00.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "src\\Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAH0AAAAAAAAAAAAmwJYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T18:39:37.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "TanqueDto.cs",
               "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Models\\TanqueDto.cs",
               "RelativeDocumentMoniker": "src\\Application\\Models\\TanqueDto.cs",
@@ -649,12 +638,11 @@
               "RelativeToolTip": "src\\Application\\Models\\TanqueDto.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAIA9wBYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T18:34:31.181Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-12T18:34:31.181Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 27,
               "Title": "TanqueResumenDto.cs",
               "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Models\\TanqueResumenDto.cs",
               "RelativeDocumentMoniker": "src\\Application\\Models\\TanqueResumenDto.cs",
@@ -662,12 +650,11 @@
               "RelativeToolTip": "src\\Application\\Models\\TanqueResumenDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T18:35:23.125Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-12T18:35:23.125Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 28,
               "Title": "UpdateNivelTanqueDto.cs",
               "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Models\\UpdateNivelTanqueDto.cs",
               "RelativeDocumentMoniker": "src\\Application\\Models\\UpdateNivelTanqueDto.cs",
@@ -675,12 +662,11 @@
               "RelativeToolTip": "src\\Application\\Models\\UpdateNivelTanqueDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T18:35:08.921Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-12T18:35:08.921Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 29,
               "Title": "CreateTanqueDto.cs",
               "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Models\\CreateTanqueDto.cs",
               "RelativeDocumentMoniker": "src\\Application\\Models\\CreateTanqueDto.cs",
@@ -688,12 +674,11 @@
               "RelativeToolTip": "src\\Application\\Models\\CreateTanqueDto.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T18:34:47.138Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-12T18:34:47.138Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 30,
               "Title": "Tanque.cs",
               "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Domain\\Entities\\Tanque.cs",
               "RelativeDocumentMoniker": "src\\Domain\\Entities\\Tanque.cs",
@@ -701,12 +686,11 @@
               "RelativeToolTip": "src\\Domain\\Entities\\Tanque.cs",
               "ViewState": "AQIAABsAAAAAAAAAAAAkwBIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T18:33:23.266Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-12T18:33:23.266Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 31,
               "Title": "20250729195251_InitialMigration.cs",
               "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Infrastructure\\Migrations\\20250729195251_InitialMigration.cs",
               "RelativeDocumentMoniker": "src\\Infrastructure\\Migrations\\20250729195251_InitialMigration.cs",
@@ -718,7 +702,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 34,
               "Title": "20250729193337_InitialMigration.cs",
               "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Infrastructure\\Migrations\\20250729193337_InitialMigration.cs",
               "RelativeDocumentMoniker": "src\\Infrastructure\\Migrations\\20250729193337_InitialMigration.cs",
@@ -730,7 +714,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 35,
               "Title": "20250729193157_BdUpdate.cs",
               "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Infrastructure\\Migrations\\20250729193157_BdUpdate.cs",
               "RelativeDocumentMoniker": "src\\Infrastructure\\Migrations\\20250729193157_BdUpdate.cs",
@@ -742,7 +726,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 32,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Web\\appsettings.Development.json",
               "RelativeDocumentMoniker": "src\\Web\\appsettings.Development.json",
@@ -754,7 +738,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 33,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Web\\appsettings.json",
               "RelativeDocumentMoniker": "src\\Web\\appsettings.json",
@@ -766,7 +750,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 37,
               "Title": "AuthenticationRequest.cs",
               "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Models\\AuthenticationRequest.cs",
               "RelativeDocumentMoniker": "src\\Application\\Models\\AuthenticationRequest.cs",
@@ -778,7 +762,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 39,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "src\\Application\\Services\\UserService.cs",
@@ -790,7 +774,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 38,
               "Title": "GlobalExceptionHandlingMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Web\\Middlewares\\GlobalExceptionHandlingMiddleware.cs",
               "RelativeDocumentMoniker": "src\\Web\\Middlewares\\GlobalExceptionHandlingMiddleware.cs",
@@ -802,7 +786,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 36,
               "Title": "ICustomAuthenticateService.cs",
               "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Interfaces\\ICustomAuthenticateService.cs",
               "RelativeDocumentMoniker": "src\\Application\\Interfaces\\ICustomAuthenticateService.cs",
@@ -814,7 +798,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 46,
               "Title": "UnauthorizedExceptions.cs",
               "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Domain\\Exceptions\\UnauthorizedExceptions.cs",
               "RelativeDocumentMoniker": "src\\Domain\\Exceptions\\UnauthorizedExceptions.cs",
@@ -826,7 +810,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 41,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Interfaces\\IUserService.cs",
               "RelativeDocumentMoniker": "src\\Application\\Interfaces\\IUserService.cs",
@@ -838,7 +822,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 40,
               "Title": "IBaseRepository.cs",
               "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Domain\\Interfaces\\IBaseRepository.cs",
               "RelativeDocumentMoniker": "src\\Domain\\Interfaces\\IBaseRepository.cs",
@@ -850,7 +834,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 45,
               "Title": "NotFoundException.cs",
               "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Domain\\Exceptions\\NotFoundException.cs",
               "RelativeDocumentMoniker": "src\\Domain\\Exceptions\\NotFoundException.cs",
@@ -862,7 +846,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 44,
               "Title": "BadRequestException.cs",
               "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Domain\\Exceptions\\BadRequestException.cs",
               "RelativeDocumentMoniker": "src\\Domain\\Exceptions\\BadRequestException.cs",
@@ -874,7 +858,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 42,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Infrastructure\\Data\\UserRepository.cs",
               "RelativeDocumentMoniker": "src\\Infrastructure\\Data\\UserRepository.cs",
@@ -886,7 +870,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 43,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Domain\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "src\\Domain\\Interfaces\\IUserRepository.cs",
@@ -898,19 +882,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "ExceptionMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Infrastructure\\Services\\ExceptionMiddleware.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\Services\\ExceptionMiddleware.cs",
-              "ToolTip": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Infrastructure\\Services\\ExceptionMiddleware.cs",
-              "RelativeToolTip": "src\\Infrastructure\\Services\\ExceptionMiddleware.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAwwBcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T18:43:42.073Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 48,
               "Title": "CredentialsAuthenticateDto.cs",
               "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Models\\CredentialsAuthenticateDto.cs",
               "RelativeDocumentMoniker": "src\\Application\\Models\\CredentialsAuthenticateDto.cs",
@@ -922,7 +894,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 47,
               "Title": "BaseRepository.cs",
               "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Infrastructure\\Data\\BaseRepository.cs",
               "RelativeDocumentMoniker": "src\\Infrastructure\\Data\\BaseRepository.cs",
@@ -934,7 +906,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 49,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Domain\\Entities\\User.cs",
               "RelativeDocumentMoniker": "src\\Domain\\Entities\\User.cs",
@@ -946,7 +918,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 53,
               "Title": "20250724205105_InitialMigration.cs",
               "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Infrastructure\\Migrations\\20250724205105_InitialMigration.cs",
               "RelativeDocumentMoniker": "src\\Infrastructure\\Migrations\\20250724205105_InitialMigration.cs",
@@ -957,7 +929,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 52,
               "Title": "Infrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Infrastructure\\Infrastructure.csproj",
               "RelativeDocumentMoniker": "src\\Infrastructure\\Infrastructure.csproj",
@@ -969,7 +941,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 55,
               "Title": "IBombaService.cs",
               "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Interfaces\\IBombaService.cs",
               "RelativeDocumentMoniker": "src\\Application\\Interfaces\\IBombaService.cs",
@@ -981,7 +953,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 50,
               "Title": "BombaRepository.cs",
               "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Infrastructure\\Data\\BombaRepository.cs",
               "RelativeDocumentMoniker": "src\\Infrastructure\\Data\\BombaRepository.cs",
@@ -993,7 +965,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 51,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Web\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "src\\Web\\Properties\\launchSettings.json",
@@ -1005,7 +977,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 54,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Juan Martin\\AppData\\Local\\SourceServer\\9ceb2ff0f494651cc5b65eb8fe6368df40255557c4af4b12a5cf606df5319592\\src\\Web\\Program.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\9ceb2ff0f494651cc5b65eb8fe6368df40255557c4af4b12a5cf606df5319592\\src\\Web\\Program.cs",
@@ -1017,7 +989,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 57,
               "Title": "BombaEstadoResumenDto.cs",
               "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Models\\BombaEstadoResumenDto.cs",
               "RelativeDocumentMoniker": "src\\Application\\Models\\BombaEstadoResumenDto.cs",
@@ -1029,7 +1001,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 56,
               "Title": "ApiResponse.cs",
               "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Models\\ApiResponse.cs",
               "RelativeDocumentMoniker": "src\\Application\\Models\\ApiResponse.cs",
@@ -1041,7 +1013,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 58,
               "Title": "UpdateBombaEstadoDto.cs",
               "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Models\\UpdateBombaEstadoDto.cs",
               "RelativeDocumentMoniker": "src\\Application\\Models\\UpdateBombaEstadoDto.cs",
@@ -1053,7 +1025,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 59,
               "Title": "CreateBombaDto.cs",
               "DocumentMoniker": "C:\\Users\\Juan Martin\\Desktop\\Coop\\BackEnd\\src\\Application\\Models\\CreateBombaDto.cs",
               "RelativeDocumentMoniker": "src\\Application\\Models\\CreateBombaDto.cs",
